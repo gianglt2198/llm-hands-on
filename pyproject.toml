@@ -23,7 +23,10 @@ dependencies = [
     "gradio (>=6.13.0,<7.0.0)",
     "llama-index (>=0.14.21,<0.15.0)",
     "llama-index-embeddings-langchain (>=0.5.0,<0.6.0)",
-    "llama-index-llms-langchain (>=0.8.0,<0.9.0)"
+    "llama-index-llms-langchain (>=0.8.0,<0.9.0)",
+    "torch (>=2.11.0,<3.0.0) ; python_version >= \"3.10\" and python_version < \"3.15\"",
+    "sentence-transformers (>=5.4.1,<6.0.0) ; python_version >= \"3.10\" and python_version < \"3.15\"",
+    "numpy (>=2.4.4,<3.0.0) ; python_version >= \"3.11\" and python_version < \"3.15\""
 ]
 
 

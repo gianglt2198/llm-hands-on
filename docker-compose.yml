@@ -1,0 +1,16 @@
+services:
+  chroma:
+    image: chromadb/chroma
+    container_name: chroma
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_data:/app/chroma_data
+    networks:
+      - llm-hands-on
+      
+networks:
+  llm-hands-on:
+    driver: bridge
+volumes:
+  chroma_data:
