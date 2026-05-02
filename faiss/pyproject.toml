@@ -1,0 +1,18 @@
+[project]
+name = "faiss"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "gianglt1",email = "gianglt2198@gmail.com"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "tensorflow-macos (>=2.16.2,<3.0.0)",
+    "tensorflow-metal (>=1.2.0,<2.0.0)",
+    "faiss-cpu (>=1.13.2,<2.0.0) ; python_version < \"3.15\""
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
