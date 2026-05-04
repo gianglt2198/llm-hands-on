@@ -31,7 +31,11 @@ dependencies = [
     "stemmer (>=0.0.4,<0.0.5)",
     "llama-index-retrievers-bm25 (>=0.7.1,<0.8.0)",
     "scikit-learn (>=1.8.0,<2.0.0) ; python_version >= \"3.11\"",
-    "faiss-cpu (>=1.13.2,<2.0.0)"
+    "faiss-cpu (>=1.13.2,<2.0.0)",
+    "gtts (>=2.5.4,<3.0.0)",
+    "ipython (>=9.13.0,<10.0.0)",
+    "pydub (>=0.25.1,<0.26.0)",
+    "playsound (==1.2.2)"
 ]
 
 
