@@ -3664,14 +3664,14 @@ symbolic = ["sympy"]
 
 [[package]]
 name = "openai"
-version = "2.32.0"
+version = "2.34.0"
 description = "The official Python library for the openai API"
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "openai-2.32.0-py3-none-any.whl", hash = "sha256:4dcc9badeb4bf54ad0d187453742f290226d30150890b7890711bda4f32f192f"},
-    {file = "openai-2.32.0.tar.gz", hash = "sha256:c54b27a9e4cb8d51f0dd94972ffd1a04437efeb259a9e60d8922b8bd26fe55e0"},
+    {file = "openai-2.34.0-py3-none-any.whl", hash = "sha256:c996a71b1a210f3569844572ad4c609307e978515fb76877cf449b72596e549e"},
+    {file = "openai-2.34.0.tar.gz", hash = "sha256:828b4efcbb126352c2b5eb97d33ae890c92a71ab72511aefc1b7fe64aeccb07b"},
 ]
 
 [package.dependencies]
@@ -7392,4 +7392,4 @@ cffi = ["cffi (>=1.17,<2.0) ; platform_python_implementation != \"PyPy\" and pyt
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13,<3.15"
-content-hash = "8b480346940181bbdae97ad6b7dc28d6e9caa86994f99b64a5508a58ba0140ec"
+content-hash = "8427518d451be54efa4766cbf07c26536ed3e7b5dc8cacd23b04b63b135b3329"
